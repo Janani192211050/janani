@@ -1,0 +1,12 @@
+str1=input("Enter the string1:")
+str2=input("Enter the string2:")
+str3=list(str1.split(" "))
+str4=list(str2.split(" "))
+for i in str3:
+    for j in str4:
+        if i==j:
+            str3.remove(i)
+            str4.remove(j)
+        
+print(*str3)
+print(*str4)
