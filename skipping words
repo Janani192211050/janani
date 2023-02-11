@@ -1,0 +1,15 @@
+str1=input("enter str1 ")
+str2=input("enter str2 ")
+
+str3=list(str1)
+str4=list(str2)
+str5=str3.split(" ")
+str6=str4.split(" ")
+for i in str5:
+    for j in str6:
+        if i==j:
+            str3.remove(i)
+            str4.remove(j)
+
+print(*str5)
+print(*str6)
