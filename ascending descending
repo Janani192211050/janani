@@ -1,0 +1,7 @@
+str=input("enter :")
+str1=str.lower()
+str2=sorted(str1)
+str3=str2[::-1]
+print(*str1)
+print(*str2)
+print(*str3)
