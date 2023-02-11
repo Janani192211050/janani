@@ -1,0 +1,10 @@
+str1=input("enter string:")
+str2=input("enter string:")
+str3=str1.lower()
+str4=str2.lower()
+str5=sorted(str3)
+str6=sorted(str4)
+if str5==str6:
+    print("anagram")
+else:
+    print("not an anagram")
