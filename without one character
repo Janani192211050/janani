@@ -1,0 +1,10 @@
+str=input("enter string:")
+str1=input("enter the two character to skip:")
+new_text=" "
+for i in range(len(str)):
+    if str[i] not in str1:
+        new_text=new_text+str[i]
+        continue
+print("\nstring after removing :")
+text=new_text
+print(text)
