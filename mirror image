@@ -1,0 +1,4 @@
+str1=input("enter string:")
+str2=str(str1)
+str3=str1[::-1]
+print(str3)
