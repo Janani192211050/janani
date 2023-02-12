@@ -1,0 +1,6 @@
+num=int(input("enter a number :"))
+f=[]
+for i in range(1,num):
+    if num%i==0:
+        f.append(i)
+print("the factor of",num,"=",f)
