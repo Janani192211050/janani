@@ -1,0 +1,9 @@
+str=input("enter string:")
+vowels=['a', 'e' ,'i', 'o' ,'u' ,'A', 'E', 'I', 'O', 'U']
+new_text=" "
+for i in range(len(str)):
+    if str[i] not in vowels:
+        new_text=new_text+str[i]
+print("\nstring after removing vowels:")
+text=new_text
+print(text)
