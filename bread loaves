@@ -1,0 +1,9 @@
+price=eval(input("price:))
+fresh=int(input("enter fresh loaves purchased:"))
+old=int(input("enter old loaves purchased:"))
+amount=fresh*185
+old=old*(price*(40/100))
+z=x+y
+print("amount of bread:",x)
+print("amount of day old :",y)
+print("total amount",z)
