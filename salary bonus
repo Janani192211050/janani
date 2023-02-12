@@ -1,0 +1,19 @@
+grade=input("enter the grade:")
+sal=int(input("enter the salary:"))
+if (sal>=0):
+    if (grade=='A' or grade=='a'):
+         bonus=sal*(0.05)
+         if (sal<10000):
+             bonus+=sal*(0.02)
+    elif (grade=='B' or grade=='b'):
+        bonus=sal*(0.1)
+        if (sal<10000):
+            bonus+=sal*(0.2);
+    else:
+        print("\nEnter a valid Grade (A or B)!!")
+else:
+    print("Enter Valid Salary Amount")
+	
+print("Enter Valid Salary Amount")
+print("Bonus = ",bonus)
+print("sal = ",sal+bonus)
